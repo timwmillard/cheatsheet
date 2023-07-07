@@ -60,6 +60,11 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 
 `gcc` comment out line
 
+
+### NvimTree
+
+`<leader> n` toggle NvimTree
+
 ---
 
 
