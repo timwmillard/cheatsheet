@@ -45,11 +45,13 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 
 `:%s/<search>/<replace>/g` search and replace
 
+
 ### Code comments
 
-`gcc` comment out with a motion
+`gcc` comment out line
 
 ---
+
 
 ## tmux
 
@@ -76,10 +78,12 @@ tmux a -t <session-name>
 
 `<prefix> $` rename session
 
-`<prefix> w` view sessions
+`<prefix> s` view sessions only
  
 
 ### Windows
+
+`<prefix> w` view sessions and windows
 
 `<prefix> c` create new window
 
@@ -89,11 +93,14 @@ tmux a -t <session-name>
 
 `C-l` next window
 
+
 ### Panes
 
 `<prefix> %` vertial split panes
 
 `<prefix> "` horizotal split panes
+
+#### Navigate panes
 
 `<prefix> h` goto left pane
 
@@ -102,4 +109,14 @@ tmux a -t <session-name>
 `<prefix> k` goto up pane
 
 `<prefix> j` goto down pane
+
+#### Resize panes
+
+`<prefix> H` wider to the left pane
+
+`<prefix> L` wider to the right pane
+
+`<prefix> K` wider to the up pane
+
+`<prefix> J` wider to the down pane
 
