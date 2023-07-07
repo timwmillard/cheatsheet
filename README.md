@@ -8,15 +8,25 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 
 ### Windows
 
-`C-w` window
+`<C-w>` window
 
-`C-w v` vertical split window
+`<C-w> v` vertical split window
 
-`C-w s` horizontal split window
+`<C-w> s` horizontal split window
 
-`C-w c` close window
+`<C-w> c` close window
 
-`C-w q` quit window
+`<C-w> q` quit window
+
+#### Navigate windows
+
+`<C-w> h` goto left pane
+
+`<C-w> l` goto right pane
+
+`<C-w> k` goto up pane
+
+`<C-w> j` goto down pane
 
 ### Tabs
 
@@ -67,7 +77,7 @@ Attach to a named tmux session.
 tmux a -t <session-name>
 ```
 
-`C-b` prefix key
+`<C-b>` prefix key
 
 `<prefix> d` dettach from tmux session
 
@@ -89,9 +99,9 @@ tmux a -t <session-name>
 
 `<prefix> ,` rename window
 
-`C-h` previous window
+`<C-h>` previous window
 
-`C-l` next window
+`<C-l>` next window
 
 
 ### Panes
