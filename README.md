@@ -27,6 +27,7 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 `<leader> a` mark a file and add to harpoon list
 
 `<C-k>` next mark
+
 `<C-j>` previous mark
 
 `<leader>hp` open harpoon window 
@@ -34,7 +35,9 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 ### Telescope
 
 `<leader> ff` find file
+
 `<leader> fw` find word, search the current word in file content
+
 `<leader> fg` find grep, search file contents
 
 
@@ -42,21 +45,41 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 
 `:%s/<search>/<replace>/g` search and replace
 
+### Code comments
+
+`gcc` comment out with a motion
+
 ---
 
 ## tmux
 
+Attach last tmux session.
+
+```sh
+tmux a
+```
+
+Attach to a named tmux session.
+
+```sh
+tmux a -t <session-name>
+```
+
 `C-b` prefix key
 
-# Sessions
+`<prefix> d` dettach from tmux session
+
+
+### Sessions
 
 `<prefix> :new` new session
 
 `<prefix> $` rename session
 
 `<prefix> w` view sessions
+ 
 
-# Windows
+### Windows
 
 `<prefix> c` create new window
 
@@ -71,4 +94,12 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 `<prefix> %` vertial split panes
 
 `<prefix> "` horizotal split panes
+
+`<prefix> h` goto left pane
+
+`<prefix> l` goto right pane
+
+`<prefix> k` goto up pane
+
+`<prefix> j` goto down pane
 
