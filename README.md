@@ -28,6 +28,10 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 
 `<C-w> j` goto down pane
 
+#### File switching
+
+`^` previous file
+
 ### Tabs
 
 `gt` goto next tab
