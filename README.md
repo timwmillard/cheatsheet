@@ -30,7 +30,7 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 
 #### File switching
 
-`^` previous file
+`C-^` previous file
 
 ### Tabs
 
@@ -68,6 +68,12 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 ### NvimTree
 
 `<leader> n` toggle NvimTree
+
+
+### Other keybindings
+
+`<leader e` with error details
+
 
 ---
 
