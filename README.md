@@ -69,6 +69,8 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 
 `<leader> n` toggle NvimTree
 
+`<leader> b` focus NvimTree
+
 
 ### Other keybindings
 
