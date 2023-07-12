@@ -76,6 +76,9 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 
 `<leader e` with error details
 
+`:set list` show tabs and spaces.
+
+`:set nolist` turn off show tabs and spaces.
 
 ---
 
