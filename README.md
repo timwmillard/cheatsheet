@@ -119,6 +119,8 @@ tmux a -t <session-name>
 
 `<prefix> ,` rename window
 
+`<prefix> .` move window
+
 `<C-h>` previous window
 
 `<C-l>` next window
