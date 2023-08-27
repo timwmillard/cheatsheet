@@ -72,6 +72,14 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 `<leader> b` focus NvimTree
 
 
+
+### Gitsigns
+
+`:Gitsigns change_base <branch>` change the git diffs to that branch
+        eg. `:Gitsigns change_base master`
+
+`:Gitsigns change_base` change the git diffs back to local changes
+
 ### Other keybindings
 
 `<leader e` with error details
