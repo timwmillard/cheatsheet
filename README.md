@@ -88,6 +88,15 @@ My handy cheatsheet for my NeoVim and tmux workflow.
 
 `:set nolist` turn off show tabs and spaces.
 
+
+### Goto code location
+
+`gd` goto definition
+
+`gr` goto reference
+
+`gi` got implementation
+
 ---
 
 
